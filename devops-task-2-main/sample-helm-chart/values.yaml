@@ -1,0 +1,9 @@
+replicaCount: 1
+
+backend:
+  image: backend-app
+  port: 8000
+
+redis:
+  image: redis:alpine
+  port: 6379
